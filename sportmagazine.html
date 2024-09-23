@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+        margin:0px;
+        padding:0px;
+    }
+    .page{
+        width: 60%;
+        margin: auto;
+        padding-bottom: 100px;
+        
+    }
+    .head{
+        background-color: rgb(250, 248, 214);
+        padding-top: 90px;
+        padding-bottom: 10px;
+    }
+    .head span{
+        float: right;
+    }
+    .head h3{
+        display: inline;
+    }
+.header{
+    margin-top: 10px;
+    font-size: 5rem;
+    height:100%;
+    background-color: rgb(209, 209, 207); 
+    text-align: center;
+}
+.header-hr{
+    height:8px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.footer-hr{
+    margin-top: 5px;
+    height:8px;
+    background-color: black;
+}
+.content{
+    margin-top: 10px;
+    margin-bottom: 10rem;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    gap: 20px;   
+}
+.first-column h1{
+    font-size: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.first-column p{
+    margin-bottom: 10px;
+    background-color: rgb(244, 226, 203);
+    font-size: x-large;
+}
+.second-column{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+.second-column img{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+}
+.second-column p{
+    font-size: x-large;
+}
+.footer{
+    font-size: large;
+    display: inline;
+}
+#foo{
+    float: right;
+}
+
+</style>
+
+<body>
+    <div class="page">
+        <div class="head"><h3>21 September, 2024</h3> <span>MAGAZINE</span></div>
+        <hr>
+        <div class="header"><hr class="header-hr"><Strong>Sport Magazine</Strong><hr class="header-hr"></div>
+    
+        <div class="content">
+            <div class="grid-container">
+                <div class="first-column">
+                    <h1>LOREM IPSUM DOLOR SIT AMET</h1>
+                    <p><i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, ab.  
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, ab
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, ab
+                    </i></p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse magni error
+                        eligendi tempora similique! Doloremque odio tenetur, deleniti consequatur
+                        quasi explicabo animi quo quae labore excepturi vel ratione vero a totam 
+                        magnam magni! Dolore corrupti quibusdam unde totam inventore officiis aliquam qui 
+                        magni fuga delectus! Dignissimos fuga quidem deleniti laudantium similique. Odit 
+                        aspernatur quibusdam, facilis nesciunt ipsum perferendis deserunt id modi deleniti 
+                        blanditiis ea iusto, atque necessitatibus quos voluptates commodi beatae cum consectetur perspiciatis</p>
+                </div>
+                
+                <div class="second-column">
+                    <img src="./sports.jpg" alt="no image found">
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse magni error
+                        eligendi tempora similique! Doloremque odio tenetur, deleniti consequatur
+                        quasi explicabo animi quo quae labore excepturi vel ratione vero a totam 
+                        magnam magni! Dolore corrupti quibusdam unde totam inventore officiis aliquam qui 
+                        magni fuga delectus! Dignissimos fuga quidem deleniti laudantium similique. Odit 
+                        aspernatur quibusdam, facilis nesciunt ipsum perferendis deserunt id modi deleniti 
+                        blanditiis ea iusto, atque necessitatibus quos voluptates commodi beatae cum consectetur perspiciatis</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <span>www.sportmagzine.com</span>
+            <span id="foo">sportmagzine</span>
+            <hr class="footer-hr">
+        </div>
+    </div>
+</body>
+</html>
